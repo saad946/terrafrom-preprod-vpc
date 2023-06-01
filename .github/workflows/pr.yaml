@@ -26,7 +26,7 @@ jobs:
         run: terraform fmt -recursive -check
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@master
+        uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-region: ap-southeast-1
 
