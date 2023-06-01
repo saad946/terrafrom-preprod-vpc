@@ -3,6 +3,5 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name        = "main"
-    prepared_by = "terraform"
   }
 }
