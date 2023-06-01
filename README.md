@@ -1,2 +1,2 @@
-# terrafrom-preprod-vpc
-Testing PreProd VPC via Terraform.
+# terrafrom-preprod-vpc-apps
+Testing PreProd VPC via terraform.
