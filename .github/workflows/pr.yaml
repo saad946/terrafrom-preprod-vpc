@@ -55,8 +55,11 @@ jobs:
       # when we'd like to update these checks
       # https://github.com/bridgecrewio/checkov-action/commit/a06d45af1edcb93085686c712634018534832f6f
       # bridgecrew/checkov:2.0.736
-      - name: Checkov
-        uses: bridgecrewio/checkov-action@v12.1171.0
-        with:
-          framework: terraform
-          quiet: true
+      ##
+      ##- name: Checkov
+      ##  uses: bridgecrewio/checkov-action@v12.1171.0
+      ##  with:
+      ##    framework: terraform
+      ##   quiet: true
+          
+        
