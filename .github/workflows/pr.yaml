@@ -34,8 +34,6 @@ jobs:
       - name: Install AWS CLI
         uses: unfor19/install-aws-cli-action@v1
 
-      - name: Terraform Init
-        run: terraform init
 
       - name: Terraform Validate
         run: terraform validate
